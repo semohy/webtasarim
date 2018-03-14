@@ -114,6 +114,113 @@ c       d
 			</tr>
 			
 		</table>
+		<h1>14.03.2018 dersi</h1>
+		<hr>
+		<h3>flash svg için embed</h3>
+		<embed src"" > <!--svg gif flash dosya gömer!-->
+		
+		<h3>iframe</h3>
+		<iframe src="http://webtekno.com" style="width:1366px;height:500px;overflow-y:hidden;"></iframe>
+		
+		<h3>form oluşturma</h3>
+		<form action="" method="GET"> <!-- request get post !-->
+			<input type="text" name="isim_Soyisim" placeholder="İsminiz  ve Soyisiminiz">
+			<button type="submit" > Gönder</button>
+		</form>
+		
+		<h3>Labellar</h3>
+			<form action="" method="GET"> <!-- request get post !-->
+				<label for ="KADİ">Kullanıcı Adı :</label><!-- id name olur !-->
+				<input id="KADİ" type="text" name="KADİ">
+				<br />
+				<button type="submit" > Gönder</button>
+			</form>
+			
+			<h3>Hidden</h3>
+			<form action="" method="GET"> <!-- request get post !-->
+				<input type="hidden" value="semi-secret;)">
+				<button type="submit" > Hidden Gönder</button>
+			</form>
+			
+			<h3>PASSWORD</h3>
+			<form action="" method="GET"> <!-- request get post !-->
+				<input type="password" name="sifre">
+				<button type="submit" > Hidden Gönder</button>
+			</form>
+			
+			<h3>email</h3>
+			<form action="" method="GET"> <!-- request get post !-->
+				<input type="email" name="mail">
+				<button type="submit" > mail Gönder</button>
+			</form>
+			
+			<h3>Checkbox</h3>
+			<form action="" method="GET"> <!-- request get post !-->
+				<input type="checkbox" value="ok" name="chkbox1" checked required> <!-- required,checked opsiyonel!-->
+				<label for="chkbox1">Beni hatırladın mı?</label>
+				<button type="submit" > mail Gönder</button>
+			</form>
+			
+			<h3>radio button</h3>
+			<form action="" method="GET"> <!-- request get post !-->
+			<radiogroup>
+				<label for="rad1">Erkek</label>
+				<input type="radio"name="cinsiyet" value="erkek>
+					<br />
+				<label for="rad2">Kadın</label>
+				<input type="radio" name="cinsiyet" value="kadın" > 
+				</radiogroup>
+				
+			</form>
+			
+			<h3>text area,reset inputs</h3>
+			<form action="" method="GET"> <!-- request get post !-->
+			<textarea name="metin"></textarea>
+			<input type="reset">
+			
+			<h3>Select menu</h3>
+				<select>
+						<option value="1">secenek1</option>
+						<option value="2">secenek2</option>
+						<option value="3">secenek3</option>
+				</select>
+				
+				<h3>DATE</h3>
+				<input type="date" >
+				
+				<h3>number</h3>
+				<input type="number" >
+				
+				<h3>color</h3>
+				<input type="color" >
+				
+				<h3>range</h3>
+				<input type="range" min=10 max="100" step="10" value="50" >
+				
+				<h3>meter</h3><!--meter file upload status!-->
+				<meter value="68" min=""0 max="100"></meter>
+				
+				<h3>video</h3>
+				<video style="border:2px solid;">
+					<source src="video.mp4" type "video/mp4" >
+				</video>
+				
+				<h3>audio</h3>
+				<audio style="border:2px solid;">
+					<source src="ses.mp3" type "sound/mp3" >
+				</audio>
+				
+				</form>
+				
+				<h3>DİVLER</h3>
+				
+				<div id="container" width="100%"  style="border:2px solid;height:900px;" >
+					<div id="header" style="height:68px;width:100%;background-color:red;">banner</div>
+					<br />
+					<div id="left_menu" style="height:268px;width:250px;background-color:skyblue;">left menu</div>
+					
+					<div id="content" style="height:500px;width:500px;background-color:purple;">left menu</div>
+				</div>
 		
 	</body>
 </html>	
