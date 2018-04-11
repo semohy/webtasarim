@@ -1,0 +1,82 @@
+*{
+	/*Evresnsel S	eçici*/
+}
+body{
+	font-family:Arial,Helvatica;
+}
+header{
+	background-color:#35424a;
+	height:70px;
+	border-bottom:5px solid rgba(231, 73, 29, 1);
+}
+#logo{
+	float:left;
+	padding:20px;
+	margin-left:120px;
+	padding-top:0px;
+	padding-bottom:0px;
+}
+header h2{
+	color:white;
+}
+
+header h2  span{
+	color:rgba(231, 73, 29, 1);
+}
+
+header ul{
+	float:right;
+	margin:10px;
+	margin-right:250px;
+	list-style-type:none;
+}
+
+header ul li {
+	float:left;
+	padding:10px;
+}
+
+header ul li a{
+	text-decoration:none;
+	color:white;
+}
+header ul li a:hover{
+	
+	color:red;
+}
+
+header ul li a span{
+	text-decoration:none;
+	color:rgba(231, 73, 29, 1);
+}
+
+#main{
+	background-color:#35424a;
+	min-height:450px;
+}
+#content{
+	padding-top:50px;
+}
+#content h1{
+	text-align:center;
+	color:white;
+}
+#content p{
+	text-align:center;
+	color:white;
+	margin-right:17%;
+	margin-left:17%;
+}
+footer{
+	margin-top:-16px;
+	background-color:#35424a;
+	border-top:2px solid red;
+}
+footer h2{
+	padding-bottom:16px;
+	color:white;
+	text-align:center;
+}
+
+
+
